@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Game of Being — Animated Prototype</title>
+    <link rel="stylesheet" href="anim.css"/>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Game of Being — Identity Mechanics (Animated)</h1>
+      <canvas id="scene" width="960" height="540" aria-label="Animated scene: masks floating and breathing"></canvas>
+      <div class="hud">
+        <button id="btnBreath">Press Start (Breath Reset)</button>
+        <button id="btnSpawn">Spawn Mask</button>
+        <span id="fps">FPS: —</span>
+      </div>
+      <p class="note">This is a minimal <em>requestAnimationFrame</em> loop with easing and a "breathing" background. Use it as a base for richer scenes (GSAP/Three.js/Lottie optional).</p>
+      <p><a href="https://github.com/shunyaranbooks/game">Back to repo</a></p>
+    </main>
+    <script src="anim.js"></script>
+  </body>
+</html>
